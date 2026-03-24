@@ -133,7 +133,6 @@ Confirmed working:
 - Antec Flux Pro (2024)
 
 Likely compatible (same display module):
-- Antec Flux Pro II
 - Other Antec cases using the iUnity display
 
 ## License
