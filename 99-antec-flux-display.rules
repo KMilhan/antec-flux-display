@@ -1,2 +1,2 @@
 # Antec Flux Pro Display - allow only the dedicated service group to use usbfs
-SUBSYSTEM=="usb", DEVTYPE=="usb_device", ATTR{idVendor}=="2022", ATTR{idProduct}=="0522", GROUP="antec-flux-display", MODE="0660"
+SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="2022", ATTR{idProduct}=="0522", GROUP="antec-flux-display", MODE="0660"
